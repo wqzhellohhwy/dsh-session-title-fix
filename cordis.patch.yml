@@ -1,0 +1,6 @@
+# bundle 层：profile 的 dsh.profile.bundles 列出本包时按序应用这里的 patch。
+# 只登记宿主半侧一行；client 半侧由 package.json 的 dsh.client 声明自动送出。
+- insert:
+    - id: dsh-session-title-fix
+      name: '@dsh-external/dsh-session-title-fix'
+      config: {}
